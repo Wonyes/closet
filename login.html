@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLOSET</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/ftc3.css" />
+
+    <!-- slick -->
+    <script src="./js/libs/jquery-3.6.0.js"></script>
+    <script src="./js/libs/slick.min.js"></script>
+    <!-- main js -->
+    <script src="/js/script2.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <section id="hd" class="hd container">
+        <div class="logo clearfix">
+          <a class="" href="#">
+            <img src="./images/logo.png" alt="1" />
+          </a>
+        </div>
+        <ul class="menu">
+          <a href="./login.html"><li>LOGIN</li></a>
+          <a href="#"><li>ORDER DETAILS</li></a>
+          <a href="#"><li>MY PAGE</li></a>
+          <a href="#"><li>MY CLOSET</li></a>
+          <!-- ORDER DETAILS = 주문내역
+               MY CLOSET = 장바구니
+          -->
+        </ul>
+      </section>
+      <section class="side">
+        <ul class="gnb-menu gnb-menu1">
+          <li class="dep1"><a class="highlight-color1" href="./closetstore.html">CLOSET STORE</a></li>
+        </ul>
+        <ul class="gnb-menu gnb-menu2">
+          <li class="dep1"><a class="highlight-color2" href="./top.html">TOP</a></li>
+          <li class="dep1"><a class="highlight-color3" href="./pants.html">PANTS</a></li>
+          <li class="dep1"><a class="highlight-color4" href="./outer.html">OUTER</a></li>
+          <li class="dep1"><a class="highlight-color5" href="./jewelry.html">JEWELRY</a></li>
+          <li class="dep1"><a class="highlight-color6" href="./dresses.html">DRESSES</a></li>
+          <li class="dep1">
+            <a class="highlight-color7" href="#">PRODUCT</a>
+            <ul class="sub-menu">
+              <li><a class="highlight-color8" id="home-closet" href="./home.html#">HOME CLOSET</a></li>
+              <li><a class="highlight-color9" id="artist" href="./artist.html#">ARTIST OBJECT</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="search-area">
+          <input type="search" placeholder="search" />
+        </div>
+        <ul class="info-list">
+          <li class="dep1">Design :<a href="#" class="info-txt"> Choi Jong Won</a></li>
+          <li class="dep1">CALL :<a href="#" class="info-txt"> 02-234-5678</a></li>
+          <li class="dep1">Company : <a href="#" class="info-txt"> fill the Closet</a></li>
+          <li class="dep1">Business: <a href="#" class="info-txt"> dnjsl216@naver.com</a></li>
+          <li class="dep1">Address : <a href="#" class="info-txt"> 서울시 강남구 서초동 222-2 2층</a></li>
+        </ul>
+        <div class="sns-logo">
+          <div class="sns">
+            <ul>
+              <li>
+                <a href="#"><img src="./images/icon_sns_f.svg" alt="f" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./images/icon_sns_i.svg" alt="i" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./images/icon_sns_y.svg" alt="y" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="container login">
+        <div class="content">
+            <span class="main-tit">CLOSET에 오신걸 환영합니다.</span>
+            <span class="main-tit">당신의 옷장을 채워드리겠습니다.</span>
+          <div class="formbox">
+            <div class="form">
+                <label class="id-box" title="아이디">
+                    <input class="member_id" name="member_id" fw-filter="isFill" fw-msg class="inputTypeText" placeholder="ID 를입력하세요." value type="text" />
+                </label>
+                <label class="password-box" title=:패스워드">
+                    <input class="member_pw" name="member_pw" fw-filter="isFill" fw-msg class="inputTypeText" placeholder="PW 를입력하세요." value type="text" />
+                </label>
+            </div>
+            <div class="login-box">
+              <div class="option">
+                  <span class="save">
+                      <input id="checksave_login" name="checksave_login" fw-fliter fw-label="자동로그인" fw-msg value="T" type="checkbox">
+                      <label for="checksave_login">자동 로그인</label>
+                  </span>
+              </div>
+              <div class="loginutil">
+                <span class="loginutil-help">ID/PW 찾기</span>
+              </div>
+            </div>
+            <div class="login-form-submit">
+              <button type="submit" data-btn-submit-login disabled class="form-button">LOGIN</button>
+            </div>
+          </div>
+          <div class="sns-login_wrap">
+              <span class="main-tit">SNS 계정으로 로그인</span>
+              <div class="sns-login_btn">
+                <ul class="el-list">
+                  <li class="list-item">
+                    <a class="instag_login" href="#">
+                      <img src="./images/instag-logo.png" alt="instagram">
+                    </a>
+                  </li>
+                  <li class="list-item">
+                    <a class="google_login" href="#">
+                      <img src="./images/google-logo.png" alt="google">
+                    </a>
+                  </li>
+                  <li class="list-item">
+                    <a class="facebook_login" href="#">
+                      <img src="./images/facebook-logo.png" alt="facebook">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+          <div class="login-guide-text">
+            <span class="guide1">아직도 회원이 아니신가요?</span>
+            <span class="guide2">회원가입</span>
+          </div>
+        </div>
+      </section>
+      <section class="bak-login_img">
+        <div class="img-area">
+          <img class="login_img" src="./images/login-img.png" alt="login">
+        </div>
+        </section>
+    </div>
+  </body>
+</html>
