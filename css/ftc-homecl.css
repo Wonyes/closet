@@ -1,9 +1,10 @@
 @charset "UTF-8";
 /* 기본셋팅 */
-/* body {
+html,
+body {
+  width: 100%;
   overflow-x: hidden;
-  overflow-y: auto;
-} */
+}
 /* 오타수정 */
 input[type="search"] {
   background-color: transparent;
@@ -25,19 +26,6 @@ a {
   text-decoration: none;
   transition: ease-in 0.3s;
 }
-/* #wrap {
-  max-height: 3000px;
-  margin: 0 auto;
-  padding-left: 40px;
-  box-sizing: border-box;
-} */
-/* #wrap {
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-  border: 0;
-} */
 /* HEADER 시작 */
 .hd {
   text-align: center;
@@ -51,11 +39,11 @@ a {
   position: fixed;
   justify-content: flex-end;
   top: 60px;
-  right: 22px;
+  right: 80px;
   text-align: center;
   z-index: 1;
   font-family: "Noto Sans KR";
-  font-size: 14px;
+  font-size: 1.5vh;
   font-weight: 400;
 }
 .hd .menu a {
@@ -90,8 +78,8 @@ a {
   z-index: 9;
   background: #fff;
 
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 400;
   padding-left: 40px;
 }
 /* side-menu hover 사이드메뉴 형광펜효과 */
@@ -129,7 +117,7 @@ a {
   align-items: flex-start;
 }
 .side .gnb-menu .dep1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: inline-block;
 }
 .side .gnb-menu .dep1 a {
@@ -169,7 +157,7 @@ a {
   padding: 65px 0 50px 0;
 }
 .side .search-area {
-  padding-top: 10px;
+  padding-top: 100px;
 }
 .side .info-list {
   display: inline-block;
