@@ -39,11 +39,10 @@ a {
   position: fixed;
   justify-content: flex-end;
   top: 60px;
-  right: 80px;
+  right: 20px;
   text-align: center;
   z-index: 1;
-  font-family: "Noto Sans KR";
-  font-size: 1.5vh;
+  font-size: 12px;
   font-weight: 400;
 }
 .hd .menu a {
@@ -52,7 +51,7 @@ a {
   margin: 0;
 }
 .hd .menu a:not(:last-child) {
-  margin-right: 35px;
+  margin-right: 15px;
 }
 .hd .menu a:after {
   content: "";
@@ -207,7 +206,7 @@ a {
 }
 /* new-item start */
 .container {
-  margin-left: 315px;
+  margin-left: 275px;
   padding-right: 20px;
 }
 .container .main-tit {
@@ -327,7 +326,7 @@ a {
 .hot-item .items .main-img::before {
   content: "";
   position: absolute;
-  right: 1457px;
+  right: 1510px;
   width: 151px;
   top: 20%;
   height: 58%;
