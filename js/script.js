@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var mixer = mixitup('.item-list');
+  let mixer = mixitup('.item-list');
 
   let navigation = document.querySelector('.navigation');
   let mobile_nav = document.querySelector('.mobile_nav');
