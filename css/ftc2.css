@@ -25,6 +25,7 @@ a {
   text-decoration: none;
   transition: ease-in 0.3s;
 }
+li {list-style: none;}
 /* HEADER 시작 */
 .hd .logo {
   position: relative;
@@ -66,6 +67,9 @@ a {
   transform-origin: 0% 50%;
 }
 /* nav-menu */
+.navigation {
+  display: none;
+}
 .mobile_nav {
   width: 0px;
   min-height: 100vh;
@@ -165,6 +169,12 @@ a {
 }
 .navigation.active .toggle::after {
   transform: translateY(0px) rotate(225deg);
+}
+.mobile_menu {
+  margin-bottom: 40px;
+}
+.nav_shop {
+  margin-bottom: 5px;
 }
 /* side-menu hover 사이드메뉴 형광펜효과 */
 .highlight-color1::after {
@@ -273,21 +283,21 @@ a {
   font-size: 10px;
   font-weight: 400;
 }
-.side .sns-logo {
+.sns-logo {
   position: absolute;
   bottom: 50px;
   left: 40px;
 }
-.side .sns-logo .sns ul {
+.sns-logo .sns ul {
   display: flex;
 }
-.side .sns-logo .sns li {
+.sns-logo .sns li {
   margin-right: 20px;
 }
-.side .sns-logo .sns img {
+.sns-logo .sns img {
   width: 18px;
 }
-.side .mob-menu {
+.mob-menu {
   display: none;
 }
 /* CONTAINER 상품사진 가격*/
@@ -432,7 +442,7 @@ a {
   .container {
     margin: 0;
   }
-  .mobile_nav{
+  .navigation {
     display: block;
   }
   .side {
@@ -449,6 +459,13 @@ a {
   .hd .logo {
     top: 0;
     padding-bottom: 80px;
+  }
+  .sns-logo {
+    position: inherit;
+    margin-top: 50px;
+    margin-left: 18px;
+    display: flex;
+    justify-content: center;
   }
   .container .content {
     width: 100%;
@@ -479,6 +496,14 @@ a {
     padding: 0;
     height: 50px;
   }
+ .info-list .dep1{
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .info-list .info-txt {
+    font-size: 11px;
+    font-weight: 300;
+  }
 }
 @media screen and (max-width: 768px) {
   .hd .menu {
@@ -500,5 +525,8 @@ a {
   }
   .container .items .item .txt-area .price {
     font-size: 13px;
+  }
+  .ft .ft-menu li {
+    font-size: 10px;
   }
 }
