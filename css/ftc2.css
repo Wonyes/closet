@@ -30,7 +30,7 @@ li {list-style: none;}
   text-align: center;
   top: 20px;
   left: 0px;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 125px;
 }
 .hd .menu {
@@ -363,7 +363,7 @@ li {list-style: none;}
 .container .items .item .txt-area .txt {
   font-size: 13px;
   font-weight: 300;
-
+  width: 100%;
   display: inline-block;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -523,6 +523,7 @@ li {list-style: none;}
   }
   button {
     font-size: 12px;
+    padding-right: 0px;
   }
   .container .items .item .txt-area .price {
     font-size: 13px;
