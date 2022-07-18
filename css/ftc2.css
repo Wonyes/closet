@@ -524,6 +524,7 @@ li {list-style: none;}
   button {
     font-size: 12px;
     padding-right: 0px;
+    color: #000;
   }
   .container .items .item .txt-area .price {
     font-size: 13px;
